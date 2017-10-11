@@ -8,11 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class activity_fragment2 extends Fragment{
+public class activity_fragment2 extends Fragment {
 
     public static activity_fragment2 newInstance(String color) {
         Bundle args = new Bundle();
-        args.putString("color","many colors");
+        args.putString("color", color);
         activity_fragment2 fragment = new activity_fragment2();
         fragment.setArguments(args);
         return fragment;
@@ -21,7 +21,7 @@ public class activity_fragment2 extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment2,container,false);
+        View v = inflater.inflate(R.layout.fragment2, container, false);
         return v;
     }
 
@@ -30,7 +30,7 @@ public class activity_fragment2 extends Fragment{
         super.onViewCreated(view, savedInstanceState);
         View backgroundView = view.findViewById(R.id.fragmentview);
         Bundle bundle = getArguments();
-        if(bundle !=null){
+        if (bundle != null) {
             String selectColor = bundle.getString("color");
 //            backgroundView.setBackgroundColor(Color.parseColor(selectColor));
             backgroundView.setBackgroundColor(Color.parseColor(selectColor));
