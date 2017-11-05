@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="send_image">Send Image</string>
+    <string name="dial">Connect Us</string>
+    <string name="call">Call</string>
+    <string name="camera">Camera</string>
+    <string name="send_email">Send Email</string>
+    <string name="launch_netflix">Launch Netflix</string>
+    <string name="launch_maps">Launch Maps</string>
+</resources>
