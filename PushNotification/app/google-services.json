@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341741287634",
+    "firebase_url": "https://greatapp-985c2.firebaseio.com",
+    "project_id": "greatapp-985c2",
+    "storage_bucket": "greatapp-985c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341741287634:android:921c655317e45e40",
+        "android_client_info": {
+          "package_name": "com.example.honey.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341741287634-c71gj4ajt387nr7gl6qrd40rm7umi3pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsKvWxES2t2s6cOaNyzk503OXncdy2hkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
