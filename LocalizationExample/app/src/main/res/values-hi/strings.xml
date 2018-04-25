@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"> स्थानीयकरण उदाहरण</string>
+    <string name="first_line">पहली पंक्ति</string>
+    <string name="second_line">ूसरी पंक्ति</string>
+    <string name="third_line">तीसरी पंक्ति</string>
+    <string name="fourth_line">चौथी रेखा</string>
+    <string name="fifth_line">पांचवीं पंक्ति</string>
+    <string name="sixth_line">छठी पंक्ति</string>
+    <string name="hindi">हिंदी</string>
+
+</resources>

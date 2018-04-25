@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LocalizationExample</string>
+    <string name="first_line">First Line</string>
+    <string name="second_line">Second Line</string>
+    <string name="third_line">Third Line</string>
+    <string name="fourth_line">Fourth Line</string>
+    <string name="fifth_line">Fifth Line</string>
+    <string name="sixth_line">Sixth Line</string>
+    <string name="hindi">Hindi (हिंदी)</string>
+    <string name="english">English</string>
+</resources>
