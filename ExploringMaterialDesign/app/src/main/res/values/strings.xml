@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExploringMaterialDesign</string>
+    <string name="Home">Home</string>
+    <string name="About">Recycler</string>
+    <string name="Blog">Blog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hard Work beats Talent</string>
+    <string name="first_line">Hard Work beats Talent</string>
+</resources>

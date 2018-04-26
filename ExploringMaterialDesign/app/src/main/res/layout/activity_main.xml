@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator"
+    tools:context="com.example.honeysonwani.exploringmaterialdesign.MainActivity">
+<android.support.design.widget.AppBarLayout
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"> <!-- for collapsing toolbar 240dp-->
+<!--<android.support.design.widget.CollapsingToolbarLayout-->
+    <!--android:id="@+id/collap_toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+    <!--app:contentScrim="@color/colorPrimary"-->
+    <!--&gt; &lt;!&ndash; for collapsing toolbar scrollFlags&ndash;&gt;  &lt;!&ndash; CONTENTSCRIM for getting the plain PRIMARY COLOR toolbar after collapsed to normal size&ndash;&gt;-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/img_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--app:layout_collapseMode="parallax"-->
+        <!--android:contentDescription="Honey"-->
+        <!--android:src="@drawable/toolbarimg" />-->  <!-- FOR COLLAPSING TOOLBAR JUST UNCOMMENT IMAGEVIEW AND COLLAPSING TOOLBAR LAYOUT AND ALSO CHANGE HEIGHT OF APPBAR TO 240DP  -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"    /> <!-- for collapsing toolbar, pin to original size-->  <!-- for scrolling toolbar behaviour layout_scrollflags is used-->
+
+<!--</android.support.design.widget.CollapsingToolbarLayout>-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_below="@+id/collap_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.AppBarLayout>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/view_pager"
+    android:layout_below="@+id/appbar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" /> <!-- for scrolling toolbar layout_behavoir:appbar_scrolling_view_behavior-->
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_action_name"
+    android:layout_margin="16dp"
+    android:layout_gravity="bottom|right"
+    android:backgroundTint="@color/colorPrimary"
+    android:onClick="OnClickDone"
+
+    />
+</android.support.design.widget.CoordinatorLayout> <!-- for toolbar respond to scrolls and collapsingToolbarLayout has to be insdie Coordinator-->
