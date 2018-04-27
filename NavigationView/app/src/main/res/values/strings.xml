@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NavigationView</string>
+    <string name="open">Nav Open Drawer</string>
+    <string name="close">Nav Close Drawer</string>
+    <string name="header">Navigation Example</string>
+    <string name="screen">Screen 2</string>
+    <string name="you_are_successful">you are successful</string>
+</resources>

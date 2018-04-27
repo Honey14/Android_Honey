@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/home"
+            android:title="home"/>
+    <item android:id="@+id/blog"
+        android:title="blog" />
+    <item android:id="@+id/learn"
+        android:title="learn" />
+    <item android:id="@+id/contact"
+        android:title="contact" />
+    </group>
+
+    <item android:id="@+id/support"
+        android:title="Support">
+        <menu>
+            <item android:id="@+id/feedback"
+                android:title="Feedback"/>
+            <item android:id="@+id/Rate_us"
+                android:title="Rate Us"/>
+        </menu>
+    </item>
+
+</menu>
