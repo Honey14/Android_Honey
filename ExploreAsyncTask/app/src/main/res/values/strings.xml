@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExploreAsyncTask</string>
+    <string name="showup">Will show up soon...</string>
+    <string name="welcome">Welcome</string>
+</resources>
