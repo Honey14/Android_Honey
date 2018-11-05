@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HttpConnection</string>
+    <string name="event">EVENT</string>
+    <string name="date">DATE</string>
+    <string name="tsunami_alert">TSUNAMI ALERT</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="notavailable">NOT AVAILABLE</string>
+    <string name="event_alert">EVENT ALERT:</string>
+    <string name="time_here">time here</string>
+    <string name="title_here">title here</string>
+    <string name="event_time">EVENT TIME:</string>
+    <string name="title_here">title here</string>
+    <string name="event_title">EVENT TITLE:</string>
+</resources>
