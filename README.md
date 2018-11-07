@@ -14,5 +14,7 @@
 * Custom camera with Camera2 API
 * Butterknife
 * Google VR SDK
-
-
+* GetBooks is built using Google Books API </br>
+--> Search books </br>
+--> Get a list of books that your searched for with title and author </br>
+--> Open the preview link by clicking on the list item. </br>
