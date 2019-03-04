@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BottomSheetDialog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="document">DOCUMENT</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="remove_popup">Remove Popup</string>
+</resources>
