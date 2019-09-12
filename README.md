@@ -1,4 +1,4 @@
-# Covered Everything for a beginner into Android Development
+# Android Assignments
 
 ## Topics covered in the repository:
 * Activity Lifecycle methods
